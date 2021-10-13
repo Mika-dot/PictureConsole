@@ -1,0 +1,6 @@
+C:\Users\сервер\Desktop\PictureConsole\PictureConsole\bin\Debug\PictureConsole.dll
+C:\Users\сервер\Desktop\PictureConsole\PictureConsole\bin\Debug\PictureConsole.pdb
+C:\Users\сервер\Desktop\PictureConsole\PictureConsole\obj\Debug\PictureConsole.csproj.AssemblyReference.cache
+C:\Users\сервер\Desktop\PictureConsole\PictureConsole\obj\Debug\PictureConsole.csproj.CoreCompileInputs.cache
+C:\Users\сервер\Desktop\PictureConsole\PictureConsole\obj\Debug\PictureConsole.dll
+C:\Users\сервер\Desktop\PictureConsole\PictureConsole\obj\Debug\PictureConsole.pdb
