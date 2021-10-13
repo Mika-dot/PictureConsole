@@ -27,6 +27,7 @@ using (var image = Image.FromFile("C:\\1.png"))
 graphics.DrawImage(image, 50, 50, 250, 200);
 
 ***better with that***
+
 [DllImport("kernel32.dll", EntryPoint = "GetConsoleWindow", SetLastError = true)]
 
 private static extern IntPtr GetConsoleHandle();
