@@ -15,8 +15,8 @@ CieLab.ComputeColors();
 Bitmap image = new Bitmap("C:\\1.png", true);
 CieLab.DrawImage(image);
 
-
 >cool withdrawal method
+
 the fourth way of displaying the image cool
 var handler = GetConsoleHandle();
 using (var graphics = Graphics.FromHwnd(handler))
