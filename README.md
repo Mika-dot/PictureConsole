@@ -11,6 +11,10 @@ the second way to display the image
 ConsoleWriteImage(new Bitmap("C:\\1.png"));
 ```
 
+Getting a picture from an ip camera
+```c#
+Bitmap image = BmpURL("C:\\1.png", true);
+```
 
 the third way to display the image
 ```c#
