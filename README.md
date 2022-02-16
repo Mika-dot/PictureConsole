@@ -10,6 +10,9 @@ the second way to display the image
 ```c#
 ConsoleWriteImage(new Bitmap("C:\\1.png"));
 ```
+<p align="center">
+  <img src="https://github.com/Mika-dot/PictureConsole/blob/main/img/ConsoleWriteImage.PNG?raw=true" alt="ConsoleWriteImage"/>
+</p>
 
 Getting a picture from an ip camera
 ```c#
@@ -22,6 +25,9 @@ CieLab.ComputeColors();
 Bitmap image = new Bitmap("C:\\1.png", true);
 CieLab.DrawImage(image);
 ```
+<p align="center">
+  <img src="https://github.com/Mika-dot/PictureConsole/blob/main/img/ComputeColors.PNG?raw=true" alt="ComputeColors"/>
+</p>
 
 >cool withdrawal method
 
@@ -35,6 +41,10 @@ using (var image = Image.FromFile("C:\\1.png"))
 
 graphics.DrawImage(image, 50, 50, 250, 200);
 ```
+
+<p align="center">
+  <img src="https://github.com/Mika-dot/PictureConsole/blob/main/img/GetConsoleHandle.PNG?raw=true" alt="GetConsoleHandle"/>
+</p>
 
 ***better with that***
 
