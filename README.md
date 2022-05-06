@@ -32,14 +32,9 @@ CieLab.DrawImage(image);
 >cool withdrawal method
 
 the fourth way of displaying the image cool
+
 ```c#
-var handler = GetConsoleHandle();
-
-using (var graphics = Graphics.FromHwnd(handler))
-
-using (var image = Image.FromFile("C:\\1.png"))
-
-graphics.DrawImage(image, 50, 50, 250, 200);
+Graphics.FromHwnd(DrawConsole.GetConsoleHandle()).DrawImage(Image.FromFile("C:\\1.png"), 50, 50, 250, 250);
 ```
 
 <p align="center">
@@ -47,9 +42,3 @@ graphics.DrawImage(image, 50, 50, 250, 200);
 </p>
 
 ***better with that***
-
-```c#
-[DllImport("kernel32.dll", EntryPoint = "GetConsoleWindow", SetLastError = true)]
-
-private static extern IntPtr GetConsoleHandle();
-```
